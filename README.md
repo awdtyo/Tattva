@@ -31,8 +31,8 @@ The model is evaluated based on the Coefficient of Determination ($R^2$).
 
 # How to Run?
 1. Data Collection - You may use your own dataset instead of the set i got from my Pi, to get an independent dataset from your pi computer, ensure that you have psutil installed.
-   python3 collect_pi.py
+   `python3 collect_pi.py`
    In a separate terminal,
-   ./stress_test.sh
+   `./stress_test.sh`
 2. Training - Upload your pi_thermal_data.csv to the notebook and execute the cells. The model uses an Adam Optimizer with an adaptive learning rate to converge on the thermal "signature" of your specific hardware.
   
