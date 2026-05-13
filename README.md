@@ -8,7 +8,7 @@ This project implements a Multilayer Perceptron (MLP) to predict the real-time t
 * **Data Engineering**: Scikit-Learn (StandardScaler, train_test_split).
 * **Visualisation**: Matplotlib, Seaborn.
 
-# Physics
+# Physics 
 Thermal dynamics in silicon are rarely linear. While a simple regression follows the formula:
 $y = Wx + b$
 This model utilizes a ReLU-activated Neural Network to capture the "Saturation Effect"—where the temperature delta decreases as the SoC approaches ambient equilibrium. We optimize the model using Mean Squared Error (MSE) loss:
