@@ -28,7 +28,7 @@ $MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
 The model is evaluated based on the Coefficient of Determination ($R^2$).
 * Training Loss: Successfully minimized using a 16-8-1 architecture.
 * Accuracy: The model identifies the "Thermal Inertia" (the lag between CPU spikes and temperature rise).
-* Note on Debugging: During development, we encountered a Negative Temperature Prediction anomaly. This was       identified as a Feature Scaling Inversion—a classic data engineering hurdle solved by properly implementing inverse_transform on the standardized output.
+* Note on Debugging: During development, I encountered a Negative Temperature Prediction anomaly. This was       identified as a Feature Scaling Inversion—a classic data engineering hurdle solved by properly implementing inverse_transform on the standardized output.
 
 ![Training Graphs](graph.png)
 
