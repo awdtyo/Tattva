@@ -7,7 +7,7 @@ This project implements a Multilayer Perceptron (MLP) to predict the real-time t
 * **Deep Learning**: PyTorch (nn.Module, nn.Sequential). 
 * **Data Engineering**: Scikit-Learn (StandardScaler, train_test_split).
 * **Visualisation**: Matplotlib, Seaborn.
-
+ 
 # Physics 
 Thermal dynamics in silicon are rarely linear. While a simple regression follows the formula:
 $y = Wx + b$
