@@ -4,7 +4,7 @@ This project implements a Multilayer Perceptron (MLP) to predict the real-time t
 
 # Technical Stack
 * **Data Collection**: Custom Python telemetry script using psutil.
-* **Deep Learning**: PyTorch (nn.Module, nn.Sequential).
+* **Deep Learning**: PyTorch (nn.Module, nn.Sequential). 
 * **Data Engineering**: Scikit-Learn (StandardScaler, train_test_split).
 * **Visualisation**: Matplotlib, Seaborn.
 
