@@ -1,4 +1,4 @@
-# Tattva
+# Tattva 
 A predictive framework designed to map the non-linear thermodynamics of Raspberry Pi hardware. By processing high-frequency telemetry data (CPU, Frequency, RAM), the model utilizes a Multi-Layer Perceptron (MLP) to forecast thermal spikes, enabling proactive power management over reactive throttling.
 This project implements a Multilayer Perceptron (MLP) to predict the real-time thermal behavior of a Raspberry Pi System-on-Chip (SoC). Unlike static thresholds, this model learns the non-linear relationship between CPU utilization, clock frequency, and RAM pressure to forecast heat generation.
 
